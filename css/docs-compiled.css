@@ -886,12 +886,12 @@ pre code {
   color: #fff;
 }
 
-@include opacity(0.5);
-
 .masthead .header-divider:after {
   width: 100%;
   background-color: #fff;
 }
+
+@include opacity(0.5);
 
 @include opacity(0.5);
 
