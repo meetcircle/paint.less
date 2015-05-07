@@ -874,6 +874,13 @@ pre code {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff23aec8', endColorstr='#ffc7cce6', GradientType=0);
 }
 
+.masthead .branding {
+  height: auto;
+  max-width: 50%;
+  margin: 0 auto;
+  border-radius: 20px;
+}
+
 .masthead-inner {
   padding: 30px;
 }
