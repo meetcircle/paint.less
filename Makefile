@@ -11,7 +11,7 @@ PATH := ./node_modules/.bin:$(PATH)
 
 build:
 	@echo "\n"
-	@printf "${DATE} · \033[35mCompiling Preboot...\033[39m"
+	@printf "${DATE} · \033[35mCompiling Paint...\033[39m"
 	@recess --compile ${DOCS} > ${DOCS_COMPILED}
 	@echo "\033[32m Success!\033[39m"
 

@@ -9,7 +9,7 @@ layout: default
     <h1 class="header-divider">Paint</h1>
     <p>A collection of LESS mixins and variables for writing better CSS from <a href="https://github.com/jdsimcoe" target="_blank">@jdsimcoe</a>.</p>
     <ul class="list-unstyled">
-      <li><a href="https://github.com/meetcircle/paint/archive/master.zip">Download Preboot</a></li>
+      <li><a href="https://github.com/meetcircle/paint/archive/master.zip">Download Paint</a></li>
       <li><a href="https://github.com/meetcircle/paint" target="_blank">View project on GitHub</a></li>
     </ul>
     <p class="social-buttons">
@@ -26,12 +26,11 @@ layout: default
 
 <section id="introduction">
   <h2 class="header-divider">Introducing Paint</h2>
-  <p class="lead"><a href="http://github.com/mdo/preboot" target="_blank">Preboot</a> is a comprehensive and flexible collection of <a href="http://lesscss.org" target="_blank">LESS</a> utilities. Its original variables and mixins became the precursor to <a href="http://getbootstrap.com" target="_blank">Bootstrap</a>. Since then, it's all come full circle.</p>
-  <p>After a two-year hiatus, Preboot has been reborn with many of the LESS variable and mixin improvements from Bootstrap, along with some new enhancements, too. It's one of the lightest and most powerful tools for CSS development without any prebuilt components.</p>
-  <p>Need something more powerful? Use <a href="http://getbootstrap.com" target="_blank">Bootstrap</a>.</p>
+  <p class="lead"><a href="http://github.com/meetcircle/paint" target="_blank">Paint</a> is a comprehensive and flexible collection of <a href="http://lesscss.org" target="_blank">LESS</a> utilities. It is based on <a href="http://getpreboot.com" target="_blank">Preboot</a> and <a href="http://getbootstrap.com" target="_blank">Bootstrap</a>.</p>
+  <p>I've taken the best of these two libraries to create a lightweight set of LESS Mixins to build modern web applications.</p>
   <p>
-    <a href="https://github.com/mdo/preboot/archive/master.zip" class="btn">Download Preboot 2</a>
-    <a href="https://github.com/mdo/preboot" class="btn" target="_blank">GitHub project</a>
+    <a href="https://github.com/meetcircle/paint/archive/master.zip" class="btn">Download Paint</a>
+    <a href="https://github.com/meetcircle/paint" class="btn" target="_blank">GitHub project</a>
   </p>
 </section>
 
@@ -39,7 +38,7 @@ layout: default
 
 <section id="table-of-contents">
   <h2 class="header-divider">What's included</h2>
-  <p class="lead">Here's the rundown of what you can find in Preboot. Jump to a section for some lightweight documentation and code snippets.</p>
+  <p class="lead">Here's the rundown of what you can find in Paint. Jump to a section for some lightweight documentation and code snippets.</p>
   <div class="row">
     <div class="grid-4">
       <h3><a href="#variables">Variables</a></h3>
@@ -88,10 +87,10 @@ layout: default
 
 <section id="variables">
   <h2 class="header-divider" id="variables">Variables</h2>
-  <p class="lead">Variables still don't exist in CSS, but they do in LESS and other CSS preprocessors. Preboot includes a several groups of meaningful and useful variables for any project.</p>
+  <p class="lead">Variables still don't exist in CSS, but they do in LESS and other CSS preprocessors. Paint includes a several groups of meaningful and useful variables for any project.</p>
 
   <h3 id="variables-colors">Colors</h3>
-  <p>Easily make use of two color schemes included in Preboot: grayscale and semantic. Grayscale colors provide quick access to shades of black (in increments of 10%) while semantic include various colors assigned to meaningful values.</p>
+  <p>Easily make use of two color schemes included in Paint: grayscale and semantic. Grayscale colors provide quick access to shades of black (in increments of 10%) while semantic include various colors assigned to meaningful values.</p>
   <div class="color-swatches">
     <div class="color-swatch black-10"></div>
     <div class="color-swatch black-20"></div>
@@ -175,7 +174,7 @@ a {
   <p>Note that the <code>@link-color-hover</code> uses a function, another awesome tool from LESS, to automagically create the right hover color. You can use <code>darken</code>, <code>lighten</code>, <code>saturate</code>, and <code>desaturate</code>.</p>
 
   <h3 id="variables-typography">Typography</h3>
-  <p>Easily set your type face, text size, leading, and more with a few quick variables. Preboot makes use of these as well to provide easy typographic mixins as well.</p>
+  <p>Easily set your type face, text size, leading, and more with a few quick variables. Paint makes use of these as well to provide easy typographic mixins as well.</p>
 {% highlight css linenos %}
 // Typography
 
@@ -208,7 +207,7 @@ a {
   <p class="lead">Generate semantic, mobile-first grid layouts with a few variables and mixins, all without superflous markup.</p>
 
   <h3 id="grid-variables">Grid variables</h3>
-  <p>There are three grid variables that Preboot uses to power the grid mixins.</p>
+  <p>There are three grid variables that Paint uses to power the grid mixins.</p>
 {% highlight css linenos %}
 // Specify the number of available columns
 @grid-columns:          12;
@@ -307,7 +306,7 @@ a {
 {% endhighlight %}
 
   <h3 id="mixins-rounded-corners">Rounded corners</h3>
-  <p>Today all modern browsers support the non-prefixed <code>border-radius</code> property. As such, there is no <code>.border-radius()</code> mixin, but Preboot does include shortcuts for quickly rounding two corners on a particular side of an object.</p>
+  <p>Today all modern browsers support the non-prefixed <code>border-radius</code> property. As such, there is no <code>.border-radius()</code> mixin, but Paint does include shortcuts for quickly rounding two corners on a particular side of an object.</p>
 {% highlight css linenos %}
 .border-top-radius(@radius) {
   border-top-right-radius: @radius;
@@ -551,7 +550,7 @@ a {
 {% endhighlight %}
 
   <h3 id="mixins-retina-images">Retina images</h3>
-  <p>Specify two image paths and the @1x image dimensions, and Preboot will provide an @2x media query. <strong>If you have many images to serve, consider writing your retina image CSS manually in a single media query.</strong></p>
+  <p>Specify two image paths and the @1x image dimensions, and Paint will provide an @2x media query. <strong>If you have many images to serve, consider writing your retina image CSS manually in a single media query.</strong></p>
 {% highlight css linenos %}
 // Mixin
 .retina-image(@file-1x, @file-2x, @width-1x, @height-1x) {
