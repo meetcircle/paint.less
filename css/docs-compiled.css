@@ -849,9 +849,9 @@ pre code {
 .header-divider:after {
   display: block;
   width: 25%;
-  height: 4px;
+  height: 2px;
   margin: 20px 0 26px;
-  background-color: #555;
+  background-color: #c7c7c7;
   border: 0;
   content: "";
   opacity: .5;
@@ -901,6 +901,7 @@ pre code {
 
 .masthead .header-divider:after {
   width: 100%;
+  height: 4px;
   background-color: #fff;
   opacity: 0.5;
   filter: alpha(opacity=50);
