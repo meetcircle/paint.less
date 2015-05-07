@@ -887,11 +887,14 @@ pre code {
 .masthead .header-divider:after {
   width: 100%;
   background-color: #fff;
+  opacity: 0.5;
+  filter: alpha(opacity=50);
 }
 
-@include opacity(0.5);
-
-@include opacity(0.5);
+.masthead .paint-icon {
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
 
 .masthead .list-unstyled {
   margin-top: 0;
