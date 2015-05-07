@@ -1014,11 +1014,12 @@ pre code {
   display: block;
   padding: 15px 20px;
   margin-bottom: 5px;
-  font-weight: bold;
+  font-weight: 500;
   line-height: 1;
   letter-spacing: -1px;
-  color: #7a43b6;
+  color: #23aec8;
   text-align: center;
+  text-transform: uppercase;
   background-color: #fff;
   border: 1px solid #ccc;
   border-radius: 5px;
@@ -1028,8 +1029,8 @@ pre code {
 .btn:active {
   color: #fff;
   text-decoration: none;
-  background-color: #7a43b6;
-  border-color: #7a43b6;
+  background-color: #23aec8;
+  border-color: #23aec8;
 }
 
 .btn:active {
