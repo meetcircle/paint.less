@@ -803,12 +803,12 @@ body {
 }
 
 a {
-  color: #428bca;
+  color: #23aec8;
   text-decoration: none;
 }
 
 a:hover {
-  color: #2a6496;
+  color: #187587;
   text-decoration: underline;
 }
 
@@ -1114,7 +1114,7 @@ pre code {
 }
 
 .color-swatch.brand-primary {
-  background-color: #428bca;
+  background-color: #23aec8;
 }
 
 .color-swatch.brand-success {
