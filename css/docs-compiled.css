@@ -875,14 +875,14 @@ pre code {
 }
 
 .masthead-branding {
-  padding: 10px;
+  padding: 20px;
   text-align: center;
 }
 
 .masthead .branding {
   height: auto;
   max-width: 33%;
-  border-radius: 20px;
+  border-radius: 7px;
   -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.15);
           box-shadow: 0 0 8px rgba(0, 0, 0, 0.15);
 }
