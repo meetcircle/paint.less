@@ -851,8 +851,10 @@ pre code {
   width: 25%;
   height: 4px;
   margin: 20px 0 26px;
+  background-color: #555;
   border: 0;
   content: "";
+  opacity: .5;
 }
 
 .container {
