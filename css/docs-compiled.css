@@ -989,14 +989,14 @@ pre code {
 .masthead {
   color: #fff;
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
-  background-color: #04a5e6;
-  background-image: -moz-linear-gradient(top, #542687, #04a5e6);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#542687), to(#04a5e6));
-  background-image: -webkit-linear-gradient(top, #542687, #04a5e6);
-  background-image: -o-linear-gradient(top, #542687, #04a5e6);
-  background-image: linear-gradient(to bottom, #542687, #04a5e6);
+  background-color: #b5bcde;
+  background-image: -moz-linear-gradient(top, #107b8f, #b5bcde);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#107b8f), to(#b5bcde));
+  background-image: -webkit-linear-gradient(top, #107b8f, #b5bcde);
+  background-image: -o-linear-gradient(top, #107b8f, #b5bcde);
+  background-image: linear-gradient(to bottom, #107b8f, #b5bcde);
   background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff542687', endColorstr='#ff04a5e6', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff107b8f', endColorstr='#ffb5bcde', GradientType=0);
 }
 
 .masthead-inner {
