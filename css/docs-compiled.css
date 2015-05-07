@@ -884,7 +884,7 @@ pre code {
 .masthead .branding {
   height: auto;
   max-width: 33%;
-  border-radius: 7px;
+  border-radius: 4px;
   -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.15);
           box-shadow: 0 0 8px rgba(0, 0, 0, 0.15);
 }
@@ -1013,20 +1013,36 @@ pre code {
   background-color: #23aec8;
 }
 
-.color-swatch.brand-success {
-  background-color: #5cb85c;
+.color-swatch.brand-secondary {
+  background-color: #c7cce6;
 }
 
-.color-swatch.brand-warning {
-  background-color: #f0ad4e;
+.color-swatch.brand-dark {
+  background-color: #404d5c;
 }
 
-.color-swatch.brand-danger {
-  background-color: #d9534f;
+.color-swatch.brand-disney {
+  background-color: #ed505f;
 }
 
-.color-swatch.brand-info {
-  background-color: #5bc0de;
+.color-swatch.brand-pre {
+  background-color: #bcda43;
+}
+
+.color-swatch.brand-kids {
+  background-color: #fece55;
+}
+
+.color-swatch.brand-teen {
+  background-color: #ffa651;
+}
+
+.color-swatch.brand-adult {
+  background-color: #ed684e;
+}
+
+.color-swatch.brand-none {
+  background-color: #481c6c;
 }
 
 .btn {
